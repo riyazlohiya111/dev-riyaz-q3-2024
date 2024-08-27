@@ -15,7 +15,7 @@
       render 'vite-tag' with 'main.css'
       render 'vite-tag' with 'main.js'
     -%}
-
+    {{ 'theme-style.css' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
   </head>
 
