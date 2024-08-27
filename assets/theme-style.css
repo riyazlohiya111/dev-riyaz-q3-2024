@@ -1,0 +1,30 @@
+body, p {
+  margin: 0px;
+}
+body {
+    font-family: 'Inter';
+}
+.cose-button svg {
+    height: 20px;
+    width: 20px;
+}
+.anunment-br {
+    padding: 10px;
+    position: relative;
+}
+.cose-button {
+    position: absolute;
+    right: 20px;
+    top: 22%;
+}
+.announcement-bar__announcement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.haid-bar {
+  display: none;
+}
+p.announcement-bar__message.h5 {
+    font-weight: 500;
+}
